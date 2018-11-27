@@ -1,0 +1,131 @@
+
+body 
+{
+	margin:0px;
+}
+#navbar
+{
+	position:fixed;
+	width:100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: #40E0D0;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+#navbar input[type=text] {
+ 
+  padding: 6px;
+  margin-top: 6px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+h1 
+{
+	color:red;
+	text-align:center;
+	font-size:300%;
+	}
+	
+form 
+	{
+		padding :20;
+	}
+#moda
+{
+	 margin-top: 40px;
+    margin-bottom: 55px;
+    margin-right: 80px;
+    margin-left: 170px;
+	width:80%;
+	height:300;
+	background-color:black;
+}
+#bio
+{
+	font-size:120%;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.shop
+{
+	font-size:130%;
+	background-color:blue;
+	opacity: 0.9;
+	border: none;
+    cursor: pointer;
+	color:white;	
+	padding: 14px 20px;
+    margin: 8px 0;
+}
+#button {
+	float:right;
+    width: 22%;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
+	margin-top:25px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: red;
+    background: grey;
+}
+
+
+
+
+
+
+	
+	
